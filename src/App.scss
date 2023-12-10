@@ -1,0 +1,20 @@
+@import '~bootstrap/scss/bootstrap';
+
+$green: #042f1a;
+$white: #fff6f6;
+$pink: #ff73b5;
+
+h1 {
+  color: $green;
+}
+
+.navbar-links{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: $white;
+}
+
+
+

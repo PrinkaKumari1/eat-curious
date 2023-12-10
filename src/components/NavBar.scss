@@ -1,0 +1,31 @@
+$green: #042f1a;
+$white: #fff6f6;
+$pink: #ff73b5;
+
+section{
+    background-color: #042f1a;
+
+
+}
+
+.Container{
+    height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  a{
+    font-family: 'Oswald', sans-serif; //just change font style
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: $white;
+  }
+  a:hover{
+    color: $white;
+    text-decoration: none;
+  }
+}
+.App-logo path{
+    fill:$white;
+  }

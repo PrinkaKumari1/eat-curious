@@ -1,0 +1,46 @@
+$green: #042f1a;
+$white: #fff6f6;
+$pink: #ff73b5;
+
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.button {
+  width: 180px;
+  position: relative;
+  overflow: hidden;
+  background-color: $pink;
+  color: $green;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button:hover .button-text{
+  width: 180px;
+  display: inline-block;
+  animation: slideLeft 3s linear infinite; /* Activate the animation on hover */
+  color:#ff73b5
+}
+.button-text a{
+    // margin: 0 30px;
+    padding: 0 30px;
+    text-decoration: none;
+    color:$green
+}
+
+

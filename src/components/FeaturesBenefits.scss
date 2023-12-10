@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+$green: #042f1a;
+$white: #fff6f6;
+$pink: #ff73b5;
+$parrot: #d4ed6d;
+
+.main-div{
+    background-color: $white;
+}
+.features-benefits{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card{
+    background: $white  !important;
+}
+.card img{
+    align-self: center;
+    height: auto;
+    width: 200px;
+}
+.abc{
+    height: 100vh;
+    background: $green;
+    border-radius: 50% 50% 0 0;
+    padding-top: 140px;
+}
+.main-drooling{
+    // border-top: $green;
+}
+
+.bcd{
+    background: $green;
+    height: 100vh;
+}
+
+

@@ -1,0 +1,89 @@
+@import "~bootstrap/scss/bootstrap";
+
+$green: #042f1a;
+$white: #fff6f6;
+$pink: #ff73b5;
+$parrot: #d4ed6d;
+
+.main-about-section{
+    background-color: $green;
+}
+
+.about-section{
+    background-color: $pink;
+    height: 100vh;
+    .about_1{
+        position: relative;
+        // top:20px;
+        height: 200px;
+    }
+}
+.about1, .about2, .about3 {
+  font-family: "Oswald", sans-serif; //just change font style
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 700;
+  font-size: 60px;
+  color: $green;
+}
+.about4 {
+    font-family: "Oswald", sans-serif; //just change font style
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    font-size: 60px;
+    color: $white;
+  }
+.description, .description2, .description3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: $green;
+    text-align: left;
+}
+.description4{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: $white;
+    text-align: left;
+ 
+}
+.man{
+    margin: 0 0 0 auto;
+    width: 100%;
+    height: auto;
+}
+.about-section2{
+    background-color: $white;
+    height: 100vh;
+    .about_2{
+        position: relative;
+        height: 100px;
+        left: 32%;
+    }
+}
+.about-section3{
+    background-color: $parrot;
+    height: 100vh;
+    .about_3{
+        position: relative;
+        height: 100px;
+        right: 32%;
+    }
+}
+.about-section4{
+    background-color: $green;
+    height: 100vh;
+    .about_4{
+        position: relative;
+        height: 100px;
+        left: 40%;
+    }
+}
+
+.EmptySection{
+    height: 100vh;
+}
+
+

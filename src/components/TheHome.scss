@@ -1,0 +1,36 @@
+$green: #042f1a;
+$white: #fff6f6;
+$pink: #ff73b5;
+
+
+
+.main-heading {
+    padding-top: 30px;
+    height: calc((100vh - 150px));
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    font-size: 200px;
+    line-height: 190px;
+    word-spacing: 10px;
+    letter-spacing: -6px;
+    text-transform: uppercase;
+    background-color: $green;
+    color: $white;
+    align-items: center;
+    p{
+        position: relative;
+        z-index: 2;
+    }
+    
+
+  }
+ .burger img{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    align-items: center;
+    margin-inline-end: auto;
+    transform: translate(-50%, -220%);
+    z-index:1
+  }

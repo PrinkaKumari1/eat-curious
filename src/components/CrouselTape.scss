@@ -1,0 +1,32 @@
+$green: #042f1a;
+$white: #fff6f6;
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.logos{
+    overflow: hidden;
+    padding: 40px 0;
+    background: $green;
+    white-space: nowrap;
+}
+.logos-slide{
+    display: inline-block;
+    animation: 8s slide infinite linear;
+}
+.logos-slide img{
+    height: 100px;
+    max-width: 300px;
+    margin: 0 40px;
+}
